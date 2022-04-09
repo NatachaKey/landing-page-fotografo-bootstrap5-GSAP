@@ -16,11 +16,15 @@ h4 {
    
     font-weight: bolder;
 }
+
+
+
 @media all and (max-width:800px) {
   .magic {
     width:100%;
   }
   
+ 
 }
 
 @media all and (max-width:500px) {
@@ -28,5 +32,5 @@ h4 {
     width:100%;
   }
   
-  
+
 }
