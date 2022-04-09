@@ -20,17 +20,13 @@ h4 {
   .magic {
     width:100%;
   }
+  
 }
 
 @media all and (max-width:500px) {
   .magic {
     width:100%;
   }
-  .one {
-    display-flex;
-  }
-  .two {
-    flex:1;
-  }
+  
   
 }
