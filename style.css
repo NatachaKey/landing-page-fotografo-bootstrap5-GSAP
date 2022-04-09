@@ -26,5 +26,11 @@ h4 {
   .magic {
     width:100%;
   }
+  .one {
+    display-flex;
+  }
+  .two {
+    flex:1;
+  }
   
 }
