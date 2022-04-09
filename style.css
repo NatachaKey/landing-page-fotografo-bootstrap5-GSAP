@@ -8,3 +8,22 @@
     font-size: 20px;
     font-weight: bolder;
 }
+li, p, span {
+    font-size: 18px;
+    
+}
+h4 {
+   
+    font-weight: bolder;
+}
+@media all and (max-width:800px) {
+  img {
+    width:100%;
+  }
+}
+
+@media all and (max-width:500px) {
+  img {
+    width:100%;
+  }
+}
