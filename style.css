@@ -21,16 +21,23 @@ h4 {
 
 @media all and (max-width:800px) {
   .magic {
+    height:20px;
     width:100%;
   }
-  
+  .carousel-item{
+    height:20px;
+  } 
  
 }
 
 @media all and (max-width:500px) {
   .magic {
+    
     width:100%;
   }
+  .carousel-item {
+    height:2000px;
+  } 
   
 
 }
