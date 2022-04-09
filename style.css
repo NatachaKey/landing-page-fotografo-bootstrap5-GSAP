@@ -17,13 +17,16 @@ h4 {
     font-weight: bolder;
 }
 @media all and (max-width:800px) {
-  img {
+  .magic {
     width:100%;
   }
 }
 
 @media all and (max-width:500px) {
-  img {
+  .magic {
     width:100%;
+  }
+  span {
+    margin-left:0;
   }
 }
