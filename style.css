@@ -21,8 +21,9 @@ h4 {
 
 @media all and (max-width:800px) {
   .magic {
+   width:100%;
     
-    width:100%;
+  
   }
   
  
@@ -30,8 +31,8 @@ h4 {
 
 @media all and (max-width:500px) {
   .magic {
-    
     width:100%;
+
   }
   
   
