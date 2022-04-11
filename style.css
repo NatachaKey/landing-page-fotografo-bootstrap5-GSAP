@@ -19,17 +19,29 @@ h4 {
 
 .plu {
   width:600px;
-    height:500px;
+    height:400px;
 }
+.plus {
+   width:100%;
+    height:800px;
+}
+
+
 
 @media all and (max-width:800px) {
   .magic {
    width:100%;
-    
   
   }
-  
+.plu {
+  width:310px;
+    height:200px;
+}  
  
+}
+.plus {
+   width:100%;
+     height:800px;
 }
 
 @media all and (max-width:500px) {
@@ -37,7 +49,15 @@ h4 {
     width:100%;
 
   }
+  .plu {
+  width:310px;
+    height:200px;
+}
+  .plus {
+   width:100%;
+    height:300px;
   
+}
   
 
 }
