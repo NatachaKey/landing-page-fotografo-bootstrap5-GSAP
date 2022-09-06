@@ -7,6 +7,7 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -15,7 +16,7 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
+    <nav  data-aos="fade-down" class="navbar navbar-expand-lg navbar-light bg-light p-3">
         <div class="container-fluid">
           <a class="navbar-brand ana" href="mailto:nataliaklueva@hotmail.com"><b> Ana Lee</b></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,7 +56,7 @@
   
         
 <section id="bodas">
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div data-aos="fade-up"  id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -69,9 +70,14 @@
             <img src="https://cdn.glitch.global/e09387e5-3be4-46d2-a3cb-a7cb9854e4f0/wed2.jpg?v=1649524326858" class="d-block w-100" alt="fotodance">
           </div>
           <div class="carousel-item">
-            <img src="https://cdn.glitch.global/e09387e5-3be4-46d2-a3cb-a7cb9854e4f0/75f1ea50-f901-482d-af60-d69cfec88ae2.wed3.jpg?v=1649524101376" class="d-block w-100" alt="fotodance">
+            <img src="https://images.unsplash.com/photo-1550784686-975e4feb2f1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" class="d-block w-100" alt="fotodance">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1606495186144-a7e672f4846a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" class="d-block w-100" alt="fotodance">
           </div>
         </div>
+        
+        
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
@@ -85,7 +91,7 @@
   
   
  <section id="cita">
-        <div class="position-relative overflow-hidden  p-md-5 m-md-3 text-center bg-light">
+        <div  data-aos="fade-up" class="position-relative overflow-hidden  p-md-5 m-md-3 text-center bg-light">
           <div class="col-md-5 p-lg-5 mx-auto my-5">
             <h1 class="display-6 fw-normal">Plazas limitadas</h1>
             <p class="lead fw-normal">No pierdas tu oportunidad <br> Decribe tu idea y te ayudamos a hacerla realidad</p>
@@ -99,7 +105,7 @@
       
 
 <section id="fotos">
-      <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+      <div data-aos="fade-up" class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
         <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
           <div class="my-3 p-3">
             <h2 class="display-5">Retratos</h2>
@@ -366,7 +372,10 @@
         </footer>
       </div>
 
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+    
+    <script>AOS.init();</script>
     
 </body>
 </html>
