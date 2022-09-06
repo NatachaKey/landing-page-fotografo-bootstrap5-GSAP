@@ -1,3 +1,6 @@
+body{
+ background-color: #f8f9fa; 
+}
 .navbar, ul, li, h1, button {
     font-family: 'Poppins', sans-serif;
 }
@@ -5,8 +8,9 @@
     font-weight: bolder;
 }
 .ana {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bolder;
+  text-shadow: 1px 1px grey;
 }
 li, p, span {
     font-size: 18px;
