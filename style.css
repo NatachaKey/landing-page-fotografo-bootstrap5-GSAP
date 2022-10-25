@@ -27,6 +27,7 @@ body{
      height:800px;
 }
 
+
  @media all and (max-width:800px) {
      .magic {
          width:100%;
