@@ -1,71 +1,59 @@
 body{
- background-color: #f8f9fa; 
+     background-color: #f8f9fa;
 }
-.navbar, ul, li, h1, button {
-    font-family: 'Poppins', sans-serif;
+ .navbar, ul, li, h1, button {
+     font-family: 'Poppins', sans-serif;
 }
-.navbar-brand {
-    font-weight: bolder;
+ .navbar-brand {
+     font-weight: bolder;
 }
-.ana {
-    font-size: 30px;
-    font-weight: bolder;
-  text-shadow: 1px 1px grey;
+ .ana {
+     font-size: 30px;
+     font-weight: bolder;
+     text-shadow: 1px 1px grey;
 }
-li, p, span {
-    font-size: 18px;
-    
+ li, p, span {
+     font-size: 18px;
 }
-h4 {
-   
-    font-weight: bolder;
+ h4 {
+     font-weight: bolder;
 }
-
-.plu {
-  width:600px;
-    height:400px;
+ .plu {
+     width:600px;
+     height:400px;
 }
-.plus {
-   width:100%;
-    height:800px;
-}
-
-
-
-
-@media all and (max-width:800px) {
-  .magic {
-   width:100%;
-  
-  }
-.plu {
-  width:310px;
-    height:200px;
-}  
- 
-}
-.plus {
-   width:100%;
+ .plus {
+     width:100%;
      height:800px;
 }
 
-@media all and (max-width:500px) {
-  .magic {
-    width:100%;
-
-  }
-  .plu {
-  width:310px;
-    height:200px;
+ @media all and (max-width:800px) {
+     .magic {
+         width:100%;
+    }
+     .plu {
+         width:310px;
+         height:200px;
+    }
 }
-  .plus {
-   width:100%;
-    height:280px;
-  
+ .plus {
+     width:100%;
+     height:800px;
 }
-  .ana{
-    font-size:25px;
-  }
-  
 
+ @media all and (max-width:500px) {
+     .magic {
+         width:100%;
+    }
+     .plu {
+         width:310px;
+         height:200px;
+    }
+     .plus {
+         width:100%;
+         height:280px;
+    }
+     .ana{
+         font-size:25px;
+    }
 }
