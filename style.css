@@ -10,7 +10,6 @@ body{
  .ana {
      font-size: 30px;
      font-weight: bolder;
-     text-shadow: 1px 1px grey;
 }
  li, p, span {
      font-size: 18px;
