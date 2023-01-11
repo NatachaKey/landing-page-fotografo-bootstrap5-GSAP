@@ -10,7 +10,7 @@ body{
  .ana {
      font-size: 30px;
      font-weight: bolder;
-}
+ }
  li, p, span {
      font-size: 18px;
 }
@@ -28,6 +28,9 @@ body{
 
 
  @media all and (max-width:800px) {
+   #carouselExampleIndicators{
+     margin-top:100px;
+   }
      .magic {
          width:100%;
     }
@@ -42,6 +45,9 @@ body{
 }
 
  @media all and (max-width:500px) {
+    #carouselExampleIndicators{
+     margin-top:100px;
+   }
      .magic {
          width:100%;
     }
